@@ -17,7 +17,7 @@ Usage: for VueJS v2
       }
       ,computed: {
        calcDubshowdivWrapperStyle: function() {
-          return { textAlign:'inherit' };
+          return { textAlign:'inherit' };  // perhaps put some dynamic calculation here, if needed
         }
       }
       ,methods: {
